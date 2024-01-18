@@ -10,9 +10,9 @@ public class MaestroDaoImpl implements IMaestroDAO{
 
 		Maestro bean = new Maestro();
 		bean.setId(1L);
-		bean.setNombre("Hagi");
-		bean.setApellido("Ayala Huaccho");
-		bean.setDireccion("Av. Universitaria 5599");
+		bean.setNombre("Hola");
+		bean.setApellido("Mundo");
+		bean.setDireccion("Lima Peru");
 
 		return bean;
 	}
